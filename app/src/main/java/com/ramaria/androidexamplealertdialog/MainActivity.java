@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         dialog.setTitle("O dialog foi aberto");
         dialog.setMessage("Esse dialog foi útil?");
         dialog.setCancelable(false);
+        dialog.setIcon(android.R.drawable.star_on);
         dialog.setPositiveButton("Sim", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
